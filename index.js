@@ -15,10 +15,12 @@ function multiply(a, b) {
 }
 
 function inc(n) {
-  return ++n;
+  n++
+  return n;
 }
 
 function dec(n) {
-  return --n;
+  n--
+  return n;
 }
 
